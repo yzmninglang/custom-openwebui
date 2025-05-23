@@ -1,5 +1,7 @@
 # 介绍
 
+> 最新镜像地址： yunxinc/study:custom-openwebui-0.6.10
+
 这个仓库是我为尝试用 GitHub Action 构建美化后的 OpenWebUI Docker 镜像而创建的
 
 美化的思路来自 L 站的一位佬友：
@@ -160,6 +162,8 @@ docker run -d -p 8080:8080 你的用户名/你的仓库名:custom-openwebui-1.0.
 
 本项目使用了以下第三方字体，它们分别遵循各自的原始许可证：
 
+> 从 v0.6.10 版本开始，已经不采用本地的 Maple Mono 字体，而是更换为在线的“Maple Mono”字体：https://fonts.zeoseven.com/items/443/
+
 *   **Maple Mono:** 基于 [SIL Open Font License 1.1] 授权。版权和完整的许可证文本可以在 [FONTLICENSE](FONTLICENSE) 文件中找到。
 *   **MiSans:** 基于其特定的专有许可证授权。
 
@@ -168,6 +172,8 @@ docker run -d -p 8080:8080 你的用户名/你的仓库名:custom-openwebui-1.0.
 ---
 
 以下信息摘录自小米官网，使用字体请遵守下文的许可协议
+
+> 从 v0.6.10 版本开始，已经不采用 MiSans 字体，而是更换为在线的“霞鹜臻楷”字体：https://fonts.zeoseven.com/items/2/
 
 # MiSans 简介
 
