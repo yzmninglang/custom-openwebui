@@ -1,9 +1,10 @@
 /* --- 修改/添加 @font-face 规则 --- */
+@import url("https://fontsapi.zeoseven.com/2/main/result.css");
+
 @font-face {
-    /* 给你的代码字体起个名字，比如 'Maple Mono' */
-    font-family: 'Maple Mono';
-    /* 确认路径正确：相对于 custom.css，字体在 fonts/ 目录下 */
-    src: url('fonts/MapleMono-Regular.woff2') format('woff2');
+    font-family: "ZSFT-443";
+    src: url("https://fontsapi.zeoseven.com/443/main.woff2") format('woff2'),
+        url("https://fontsapi-storage.zeoseven.com/443/main.woff2") format('woff2');
     font-display: swap;
     font-style: normal;
 }
@@ -17,22 +18,13 @@
     font-style: italic;
 }
 
-@font-face {
-    /* 给你的UI主字体起个名字，比如 'MiSans' */
-    font-family: 'MiSans';
-    /* 确认路径正确 */
-    src: url('fonts/MiSans.woff2') format('woff2');
-    font-display: swap;
-    /* 如果 MiSans.woff2 包含多种字重，可以分别定义，
-       但如果只有一个常规体，这样写就行 */
-}
-
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'MiSans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "LXGW ZhenKai", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: normal;
 }
 
 /* 代码块容器样式 */
@@ -137,8 +129,8 @@ body {
 
 /* 代码内容区域 */
 .cm-content {
-    /* 使用你为 MapleMono 定义的 font-family 名称 */
-    font-family: 'Maple Mono', -apple-system, BlinkMacSystemFont, Inter, ui-sans-serif, system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    /* 使用你为 ZSFT-443 定义的 font-family 名称 */
+    font-family: 'ZSFT-443', -apple-system, BlinkMacSystemFont, Inter, ui-sans-serif, system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     /* 保留后面的备用字体 */
     font-size: 15px !important;
     line-height: 1.6em !important;
@@ -291,7 +283,7 @@ span.ͼw {
     color: #586069 !important;
     padding-right: 10px !important;
     /* 也使用代码字体 */
-    font-family: 'Maple Mono';
+    font-family: 'ZSFT-443';
 }
 
 .dark .cm-gutters {
