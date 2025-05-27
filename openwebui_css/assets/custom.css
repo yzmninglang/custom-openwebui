@@ -10,10 +10,9 @@
 }
 
 @font-face {
-    /* 同上，这是斜体 */
-    font-family: 'Maple Mono';
-    /* 确认路径正确 */
-    src: url('fonts/MapleMono-Italic.woff2') format('woff2');
+    font-family: "ZSFT-443";
+    src: url("https://fontsapi.zeoseven.com/443/main.woff2") format('woff2'),
+        url("https://fontsapi-storage.zeoseven.com/443/main.woff2") format('woff2');
     font-display: swap;
     font-style: italic;
 }
