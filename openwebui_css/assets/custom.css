@@ -1,5 +1,5 @@
 /* --- 修改/添加 @font-face 规则 --- */
-@import url("https://fontsapi.zeoseven.com/2/main/result.css");
+@import url("https://fontsapi.zeoseven.com/515/main/result.css");
 
 @font-face {
     font-family: "ZSFT-443";
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    font-family: "LXGW ZhenKai", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "LXGW Neo XiHei Plus", -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: normal;
 }
 

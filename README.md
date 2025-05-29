@@ -1,6 +1,6 @@
 # 介绍
 
-> 最新镜像地址： yunxinc/study:custom-openwebui-0.6.11
+> 最新镜像地址： yunxinc/study:custom-openwebui-0.6.12
 
 这个仓库是我为尝试用 GitHub Action 构建美化后的 OpenWebUI Docker 镜像而创建的
 
@@ -20,7 +20,7 @@
 
 我便开始了尝试
 
-这个仓库因此而出现……
+这个仓库因此出现……
 
 # 日志
 
@@ -147,6 +147,8 @@ git push origin v1.0.0
 docker pull 你的用户名/你的仓库名:custom-openwebui-1.0.0
 
 # 运行容器
+# 我这里是简化了部署命令
+# 实际需要添加的额外参数请参阅官方文档
 docker run -d -p 8080:8080 你的用户名/你的仓库名:custom-openwebui-1.0.0
 ```
 
@@ -173,7 +175,9 @@ docker run -d -p 8080:8080 你的用户名/你的仓库名:custom-openwebui-1.0.
 
 以下信息摘录自小米官网，使用字体请遵守下文的许可协议
 
-> 从 v0.6.10 版本开始，已经不采用 MiSans 字体，而是更换为在线的“霞鹜臻楷”字体：https://fonts.zeoseven.com/items/2/
+> 从 v0.6.10 版本开始，已经不采用 `MiSans` 字体，而是更换为在线的 `霞鹜臻楷` 字体：https://fonts.zeoseven.com/items/2/
+
+> 从 v0.6.12 版本开始，已经不采用 `霞鹜臻楷` 字体，而是更换为 `霞鹜新晰黑 Plus` 字体以提高可读性：https://fonts.zeoseven.com/items/515/
 
 # MiSans 简介
 
