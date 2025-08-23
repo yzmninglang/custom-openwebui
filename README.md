@@ -1,6 +1,6 @@
 # 介绍
 
-> 最新镜像地址： yunxinc/study:custom-openwebui-0.6.18
+> 最新镜像地址： yunxinc/study:custom-openwebui-0.6.25
 
 这个仓库是我为尝试用 GitHub Action 构建美化后的 OpenWebUI Docker 镜像而创建的
 
