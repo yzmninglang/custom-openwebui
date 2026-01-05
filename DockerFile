@@ -1,5 +1,6 @@
 # 使用官方镜像作为基础
-FROM ghcr.io/open-webui/open-webui:main
+# FROM ghcr.io/open-webui/open-webui:main
+FROM ghcr.io/open-webui/open-webui:git-ca514cd-slim
 
 # 将整个 assets 文件夹 (包含所有 css, js, fonts/) 复制到镜像中
 COPY ./openwebui_css/assets /app/build/assets/
